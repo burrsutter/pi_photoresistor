@@ -10,9 +10,9 @@ iv = setInterval(function() {
   setTimeout(function() {
    reading = 0;
    console.log(" wait: " + Date.now());
-   while(photoIn.readSync() == 0) {
-      reading = reading + 1;
-   } // while
+//   while(photoIn.readSync() == 0) {
+//      reading = reading + 1;
+//   } // while
    console.log(" read: " + reading);   	
   }, .1);
  
