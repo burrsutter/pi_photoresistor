@@ -12,6 +12,8 @@ The 1uF capacitor's postive lead is in-line with the green jumper then photoresi
 
 https://raw.githubusercontent.com/burrsutter/rpi_HC-SR501/master/images/Pi2Header.png
 
+![Alt text](/images/rpi_photoresistor_bb.png?raw=true "Fritzing Diagram")
+
 # python usage
 
 python photoresistor_poll.py
